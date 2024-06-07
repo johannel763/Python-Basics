@@ -23,3 +23,14 @@ print(first_name)
 print(last_name)
 
 print(full_name[0: len(full_name)])
+
+############### Slicing with step value
+
+new_string = full_name[0: len(first_name):2]
+
+print(new_string)
+
+new_string = full_name[0: len(full_name):2]
+
+print(new_string)
+
